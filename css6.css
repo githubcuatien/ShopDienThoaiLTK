@@ -1,0 +1,314 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 1100px;
+	height: auto;
+	margin: auto;
+}
+
+.header {
+	width: 100%;
+	height: auto;
+}
+
+body {
+	font-size: 12px;
+	font-family: Arial
+}
+
+#menu .active {
+	color: #000;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#menu {
+	width: 100%;
+	height: 40px;
+	margin: 0px auto;
+	background-color:#ffccff;
+	overflow: hidden;
+}
+
+#menu ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+#menu ul li {
+	list-style: none;
+	float: left;
+	padding-top: 15px;
+}
+
+#menu ul li a {
+	color: rgb(112, 17, 17);
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#menu a:hover {
+	background-color: #fff;
+	color: #000;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	box-shadow: 1px 3px 3px #771b1b;
+}
+
+.content {
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.content_left {
+	width: 25%;
+	float: left;
+	background-color: #EEEEEE;
+}
+
+.loai {
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+	height: 30px;
+	line-height: 30px;
+	padding: 20px
+}
+
+.content_left ul {
+	list-style: none;
+	padding: 10px;
+}
+
+.content_left li {
+	padding: 10px;
+	border-bottom: 1px dotted #999;
+}
+
+.content_left a {
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.content_left a:hover {
+	color: #960;
+}
+
+.content_right {
+	width: 74%;
+	height: auto;
+	float: right;
+	
+}
+
+.content_right ul {
+	width: 100%;
+	padding: 20px;
+	margin-left: 10px;
+	list-style: none;
+}
+
+.content_right li {
+	float: left;
+	width: 200px;
+	height: 220px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.content_right li a {
+	text-decoration: none;
+	color: #000;
+}
+
+.clear {
+	clear: both;
+}
+
+.footer {
+	width: 100%;
+	height: 80px;
+	background: #066;
+}
+
+.giohang {
+	left: 0;
+	top: 0;
+	position: fixed;
+	margin-left: 50px;
+	margin-top: 100px;
+}
+
+.hang {
+	margin-right: 20px;
+	padding-top: 10px;
+	transition: transform .2s;
+	border: 1px aquamarine solid;
+	background-color: rgb(253, 253, 253);
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.hang:hover {
+	transform: scale(0.9);
+	background-color: aliceblue;
+	box-shadow: 1px 3px 3px #771b1b;
+}
+
+.item-name {
+	font-weight: bold;
+	height: 30px;
+	color: #09C;
+}
+
+.left1 {
+	color: #fff;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+.dong:hover {
+	box-shadow: 1px 3px 3px #771b1b;
+}
+
+.dong a {
+	color: #066;
+}
+
+.button1 {
+	background-color: #4CAF50;
+	color: #FFF;
+	border: 1px solid #4CAF50;
+	padding: 5px 11px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+
+}
+
+.button1:hover {
+	background-color: #FFF;
+	color: white;
+}
+
+.hang11 {
+	padding: 8px;
+	border-radius: 5px;
+	color: white;
+	background-color: #4CAF50;
+}
+
+.hang11:hover {
+	color: black;
+	background-color: white;
+	box-shadow: 1px 3px 3px #771b1b;
+}
+
+input[type=text] {
+	box-sizing: border-box;
+	border: 1px solid #FFF;
+	outline: none;
+}
+
+input[type=text]:focus {
+	background-color: lightblue;
+}
+
+.button {
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #666;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 5px #363844;
+}
+
+.button:hover {
+	background-color: #666
+}
+
+.button:active {
+	background-color: #666;
+	box-shadow: 0 2px #363844;
+	transform: translateY(4px);
+}
+
+.slide {
+	width: 1002px;
+	height: 300px;
+	overflow: hidden;
+	margin: 0px auto;
+	position: relative;
+	margin-top: 10px;
+}
+
+.chuyen-slide {
+	width: 99999999999px;
+	float: left;
+	transition: all 1s ease-in-out;
+	animation-name: example;
+	animation-duration: 4s;
+}
+
+.chuyen-slide img {
+	width: 1000px;
+	height: 300px;
+}
+
+.dieuhuong {
+	position: absolute;
+	color: #777777;
+	font-size: 40px;
+	top: 50%;
+	padding-left: 10px;
+	visibility: hidden;
+}
+
+.dieuhuong i:last-child {
+	position: relative;
+	left: 888px;
+}
+
+.slide:hover .dieuhuong {
+	visibility: visible;
+	opacity: 0.65;
+}
+
+.dieuhuong i:hover {
+	cursor: pointer;
+	
+}
+
+.cmt input[type=text],
+input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
